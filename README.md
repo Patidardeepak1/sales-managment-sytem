@@ -54,7 +54,7 @@ npm run install-all
 ```
 
 3. Set up environment variables:
-   - Copy `server/.env.example` to `server/.env`
+   - Copy `backend/.env.example` to `backend/.env`
    - Update MongoDB connection string if needed:
      ```
      PORT=5000
@@ -92,7 +92,7 @@ To build the frontend for production:
 npm run build
 ```
 
-The built files will be in `client/dist/`.
+The built files will be in `frontend/dist/`.
 
 ### Usage
 
