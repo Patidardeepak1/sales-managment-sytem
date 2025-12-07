@@ -1,0 +1,19 @@
+{
+  "name": "trustate-server",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js",
+    "import-data": "node --max-old-space-size=4096 src/utils/dataImport.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mongoose": "^8.0.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "csv-parser": "^3.0.0"
+  }
+}
+
